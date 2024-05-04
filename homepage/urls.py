@@ -1,6 +1,6 @@
 from django.urls import path
 
-from ayoya.homepage import views
+from . import views
 
 urlpatterns = [
     path('', views.homepage, name='homepage'),
